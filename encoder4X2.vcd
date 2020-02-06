@@ -1,0 +1,46 @@
+$date
+	Thu Feb  6 15:40:09 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$var wire 2 ! out [1:0] $end
+$var reg 4 " in [3:0] $end
+$scope module gnc $end
+$var wire 4 # IN [3:0] $end
+$var reg 2 $ OUT [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+b0 #
+b0 "
+bx !
+$end
+#10
+b0 !
+b0 $
+b1 "
+b1 #
+#20
+b1 !
+b1 $
+b10 "
+b10 #
+#30
+b10 !
+b10 $
+b100 "
+b100 #
+#40
+b11 !
+b11 $
+b1000 "
+b1000 #
+#50
