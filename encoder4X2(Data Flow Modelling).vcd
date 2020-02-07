@@ -1,0 +1,49 @@
+$date
+	Thu Feb  6 16:41:58 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$var wire 1 ! o1 $end
+$var wire 1 " o0 $end
+$var reg 1 # i0 $end
+$var reg 1 $ i1 $end
+$var reg 1 % i2 $end
+$var reg 1 & i3 $end
+$scope module gnc $end
+$var wire 1 # I0 $end
+$var wire 1 $ I1 $end
+$var wire 1 % I2 $end
+$var wire 1 & I3 $end
+$var wire 1 " O0 $end
+$var wire 1 ! O1 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0&
+0%
+0$
+1#
+0"
+0!
+$end
+#10
+1"
+0#
+1$
+#20
+0"
+1!
+0$
+1%
+#30
+1"
+0%
+1&
+#40

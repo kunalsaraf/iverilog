@@ -17,7 +17,7 @@ module test;
 	wire [1:0]out;
 	enc gnc(in, out);
 	initial begin
-		$dumpfile("encoder4X2.vcd");
+		$dumpfile("encoder4X2(Behavioural Modelling).vcd");
 		$dumpvars(0,test);
 		$display("I3\tI2\tI1\tI0\tO1\tO0");
 		$monitor("%b\t%b\t%b\t%b\t%b\t%b",in[3],in[2],in[1],in[0],out[1],out[0]);
